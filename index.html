@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css?v=1" />
+  <title>Ada | Piedra, papel o tijera</title>
+
+</head>
+
+<body>
+  <section class="principal">
+    <div class="puntajes">
+      <div class="puntaje-usuaria">
+        <h2>Lula</h2>
+        <p>0</p>
+      </div>
+
+      <div class="puntaje-computadora">
+        <h2>Computadora</h2>
+        <p>0</p>
+      </div>
+    </div>
+
+    <div class="tablero">
+      <h2 class="resultado">Elegí una opción</h2>
+
+      <div class="manos">
+        <img class="mano-usuaria" src="./assets/piedra_ada.png" alt="Opción elegida por usuario" />
+        <img class="mano-computadora" src="./assets/piedra_computadora.png" alt="Opción elegida por computadora" />
+      </div>
+
+      <div class="opciones">
+        <button class="piedra"><img class="mano-usuaria" src="./assets/piedra_ada.png" alt="Elegir piedra" /></button>
+        <button class="papel"><img class="mano-usuaria" src="./assets/papel_ada.png" alt="Elegir papel" /></button>
+        <button class="tijera"><img class="mano-usuaria" src="./assets/tijera_ada.png" alt="Elegir tijera" /></button>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
